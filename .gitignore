@@ -44,3 +44,5 @@ venv/
 # Spring Boot local secrets
 application-local.properties
 application-*.properties
+backend/.env
+.env

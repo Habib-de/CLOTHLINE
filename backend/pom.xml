@@ -22,7 +22,6 @@
         <java.version>1.8</java.version>
         <jjwt.version>0.11.5</jjwt.version>
         <swagger.version>1.6.9</swagger.version>
-        <maven-resources-plugin.version>3.1.0</maven-resources-plugin.version>
     </properties>
 
     <dependencies>
@@ -103,11 +102,6 @@
 
     <build>
         <plugins>
-           <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-resources-plugin</artifactId>
-                <version>${maven-resources-plugin.version}</version>
-            </plugin>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
